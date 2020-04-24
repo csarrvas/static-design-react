@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#root {
+  background-color: #eff1f5;
+  min-height: 100vh;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}

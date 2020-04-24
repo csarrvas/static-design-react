@@ -1,0 +1,33 @@
+header>div:first-of-type>p {
+  padding: 15px 10%;
+  background-color: #03172d;
+  color: white;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  background-color: white;
+  margin: 0px;
+  padding: 10px 0px 15px 10%;
+}
+
+header li {
+  padding: 5px 0px;
+  cursor: pointer;
+  color: #777;
+}
+
+header li::after {
+  content: '/';
+  padding: 0px 7px;
+  cursor: default;
+}
+
+header li:last-of-type::after {
+  content: '';
+}
+
+.selected {
+  color: #333;
+}

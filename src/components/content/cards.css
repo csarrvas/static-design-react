@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card>p:first-of-type {
+  padding: 15px;
+  font-size: 1.2rem;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.card>p>span:first-of-type {
+  padding-right: 15px;
+  text-align: right;
+  position: absolute;
+  font-size: 1rem;
+  right: 0px;
+  color: #45d5dc;
+  cursor: pointer;
+}
